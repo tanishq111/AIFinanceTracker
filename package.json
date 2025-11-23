@@ -1,0 +1,18 @@
+{
+  "name": "ai-finance-tracker",
+  "version": "1.0.0",
+  "description": "AI-Powered Personal Finance Tracker with MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["finance", "ai", "mern", "zustand"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
